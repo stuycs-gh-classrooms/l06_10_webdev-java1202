@@ -32,7 +32,7 @@ function draw() {
   timeToAngle();
   clockFace();
   ticks=0;
-  for ( int j=0; j<=60; j++){
+  for ( let j=0; j<=60; j++){
     amp=200.0;
     strokeWeight(2.5);
     xn = (cos(ticks) * amp + offset);
@@ -41,7 +41,7 @@ function draw() {
     ticks+=(6.283/60);
   }
   ticks=0;
-  for ( int k=0; k<=60; k++){
+  for ( let k=0; k<=60; k++){
     amp=185.0;
     strokeWeight(6);
     stroke(#9EB1E3);
@@ -52,7 +52,7 @@ function draw() {
   }
   stroke(0);
   ticks=0;
-  for ( int j=0; j<=12; j++){
+  for ( let j=0; j<=12; j++){
     amp=200.0;
     strokeWeight(2.5);
     xn = (cos(ticks) * amp + offset);
@@ -61,7 +61,7 @@ function draw() {
     ticks+=(6.283/12);
   }
   ticks=0;
-  for ( int k=0; k<=12; k++){
+  for ( let k=0; k<=12; k++){
     amp=170.0;
     strokeWeight(6);
     stroke(#9EB1E3);
