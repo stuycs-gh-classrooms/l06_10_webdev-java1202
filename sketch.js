@@ -15,6 +15,7 @@ var xn;
 var yn;
 var ticks;
 var amp;
+const d;
 
 function setup() {
   createCanvas(400,400);
@@ -24,6 +25,7 @@ function setup() {
   second=second();
   offset=width/2;
   frameRate(1);
+  d = new Date();
 }
 
 function draw() {
@@ -118,8 +120,8 @@ function clockFace(){
 }
 
 function updateTime(){
-  hour=hour();
-  minute=minute();
-  second=second();
+  hour=d.getHours();
+  minute=d.getMinutes();
+  second=d.getSeconds();
 }
 
