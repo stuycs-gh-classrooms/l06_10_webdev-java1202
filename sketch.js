@@ -18,7 +18,7 @@ var amp;
 
 function setup() {
   createCanvas(400,400);
-  background(#EA9098);
+  background(234, 144, 152);
   hour=hour();
   minute=minute();
   second=second();
