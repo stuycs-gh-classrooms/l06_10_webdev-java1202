@@ -92,7 +92,7 @@ function timeToAngle(){
   hangle=radians((360*(hour/12.0))-90)+(mangle/12);
 }
 
-function drawHand(float amplitute){
+function drawHand(amplitute){
   amplitute=100.0;
   xh = (cos(hangle) * amplitute + offset);
   yh = (sin(hangle) * amplitute + offset);
