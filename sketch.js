@@ -15,7 +15,7 @@ var xn;
 var yn;
 var ticks;
 var amp;
-const d;
+const d = new Date();
 
 function setup() {
   createCanvas(400,400);
