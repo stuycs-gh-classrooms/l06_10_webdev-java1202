@@ -27,7 +27,7 @@ function setup() {
 }
 
 function draw() {
-  background(#EA9098);
+  background(234, 144, 152);
   updateTime();
   timeToAngle();
   clockFace();
