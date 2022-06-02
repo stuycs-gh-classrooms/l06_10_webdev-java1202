@@ -44,7 +44,7 @@ function draw() {
   for ( let k=0; k<=60; k++){
     amp=185.0;
     strokeWeight(6);
-    stroke(#9EB1E3);
+    stroke(158, 177, 227);
     xn = (cos(ticks) * amp + offset);
     yn = (sin(ticks) * amp + offset);
     line(width/2,height/2,xn,yn);
@@ -64,7 +64,7 @@ function draw() {
   for ( let k=0; k<=12; k++){
     amp=170.0;
     strokeWeight(6);
-    stroke(#9EB1E3);
+    stroke(158, 177, 227);
     xn = (cos(ticks) * amp + offset);
     yn = (sin(ticks) * amp + offset);
     line(width/2,height/2,xn,yn);
@@ -76,7 +76,7 @@ function draw() {
   line(width/2,height/2,0,height/2);
   line(width/2,height/2,width/2,height);
   line(width/2,height/2,width,height/2);strokeWeight(5);
-  stroke(#9EB1E3);
+  stroke(158, 177, 227);
   line(width/2,height/2,width/2,30);
   line(width/2,height/2,30,height/2);
   line(width/2,height/2,width/2,height-30);
@@ -113,7 +113,7 @@ function drawHand(float amplitute){
 }
 
 function clockFace(){
-  fill(#9EB1E3);
+  fill(158, 177, 227);
   circle(200,200,400);
 }
 
