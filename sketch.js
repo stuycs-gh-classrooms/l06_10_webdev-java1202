@@ -122,3 +122,4 @@ function updateTime(){
   minute=minute();
   second=second();
 }
+
