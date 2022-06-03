@@ -20,9 +20,9 @@ const d = new Date();
 function setup() {
   createCanvas(400,400);
   background(234, 144, 152);
-  hour=hour();
-  minute=minute();
-  second=second();
+  hour=d.getHours();
+  minute=d.getMinutes();
+  second=d.getSeconds();
   offset=width/2;
   frameRate(1);
 }
