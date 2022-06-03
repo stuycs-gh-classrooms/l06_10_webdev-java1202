@@ -123,4 +123,3 @@ function updateTime(){
   minute=d.getMinutes();
   second=d.getSeconds();
 }
-
