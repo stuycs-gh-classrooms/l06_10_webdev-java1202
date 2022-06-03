@@ -25,7 +25,6 @@ function setup() {
   second=second();
   offset=width/2;
   frameRate(1);
-  d = new Date();
 }
 
 function draw() {
